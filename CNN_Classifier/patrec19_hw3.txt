@@ -1,0 +1,45 @@
+Assignment	Programming Assignment 3
+
+(Replacement of final exam)
+
+-----------------------
+1. Design and implement a pattern classifier that classifies 10 MNIST hand-written images
+  The image files are given (mnist_png.zip)
+
+  mnist_png/training/0
+  mnist_png/training/1
+  ...
+  mnist_png/training/9
+
+  mnist_png/testing/0
+  mnist_png/testing/1
+  ...
+  mnist_png/testing/9
+
+  The subfolder names are class names
+  Train your model with the files in "training" folder,
+  calculate classification accuracies with the files in "testing" folder
+
+  - Use one of the classifiers given in the lecture (k-NN, Naive Bayes, SVM, NN, etc.)
+  - Any dimension reduction techniques (PCA, LDA, etc.) can be used
+  - CNN or other deep learning methods can be used, but try to add your idea for improved performance
+  - You may use downloaded code, but SPECIFY clearly which part of the codes were downloaded
+    including web addresses, and which part are your own writings.
+  - In the report, explain your method well, learning process (convergence graphs, etc),
+    final accuracy, etc.
+
+-----------------------
+2. Incomplete training data case
+A new set of training files are given, with 50% of the labels are incorrect.
+Repeat 1 with the corrupted training dataset
+Add your novel idea to handle such cases.
+
+-----------------------
+  *grading criteria:
+  - novelty 30%
+  - coding (your ID and name, specification of used code) 30%
+  - report 40%
+
+  *submission:
+  - source code(s) without data - should be executable with the given image files
+  - report in pdf format

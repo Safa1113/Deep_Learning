@@ -1,0 +1,3 @@
+skipthoughts
+opencv-python
+tqdm

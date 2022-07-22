@@ -1,0 +1,45 @@
+__include__: abstractB.yaml
+model:
+  network:
+    classeme:
+      type: block
+      input_dims: [100, 100]
+      output_dim: 200
+      mm_dim: 700
+      chunks: 10
+      rank: 5
+    spatial:
+      type: block
+      input_dims: [4, 4]
+      output_dim: 200
+      mm_dim: 700
+      chunks: 10
+      rank: 5
+    feature:
+      type: block
+      input_dims: [2048, 2048]
+      output_dim: 200
+      mm_dim: 700
+      chunks: 10
+      rank: 5
+    feature2:
+      type: block
+      input_dims: [600, 600]
+      output_dim: 600
+      mm_dim: 700
+      chunks: 10
+      rank: 5
+    fusion_multi1:
+      type: block
+      input_dims: [2152, 2152]
+      output_dim: 2152
+      mm_dim: 700
+      chunks: 10
+      rank: 5
+    fusion_multi2:
+      type: block
+      input_dims: [2152, 2152]
+      output_dim: 2152
+      mm_dim: 700
+      chunks: 10
+      rank: 5

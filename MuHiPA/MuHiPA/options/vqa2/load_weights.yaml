@@ -1,0 +1,27 @@
+-o /home/abr/Data/murel.bootstrap.pytorch/logs/vqa2/server/fromServer/newModel/85/options.yaml --exp.resume best_accuracy_top1 --dataset.train_split --dataset.eval_split test --misc.logs_name test
+
+-o /home/abr/Data/murel.bootstrap.pytorch/logs/vqa2/server/fromServer/newModel/test4/options.yaml --exp.resume best_eval_epoch.accuracy_top1 --dataset.train_split --dataset.eval_split val --misc.logs_name test
+
+-o /home/abr/Data/murel.bootstrap.pytorch/logs/vqa2/server/fromServer/46/options.yaml --exp.resume best_eval_epoch.accuracy_top1 --dataset.train_split --dataset.eval_split val --misc.logs_name test
+
+ckpt_best_eval_epoch.accuracy_top1_engine.pth
+
+-o /home/abr/Data/murel.bootstrap.pytorch/murel/options/vqa2/murel.yaml
+
+
+87- server test 4 my best model 63 with 1d conv after v fusion and (image attention with masking and 1 glimpse)
+
+88- server test 3 coattention with no residual with relu and aggregating as sum in the end
+
+-o /home/abr/Data/murel.bootstrap.pytorch/logs/vqa2/server/fromServer/newModel/emurelnoselffusion/options.yaml --exp.resume best_accuracy_top1 --dataset.train_split --dataset.eval_split test --misc.logs_name test
+
+
+-o /home/abr/Data/murel.bootstrap.pytorch/logs/vqa2/server/fromServer/newModel/emurelnoselffusion/options.yaml --exp.resume best_accuracy_top1 --dataset.train_split --dataset.eval_split test --misc.logs_name test
+
+
+
+
+-o /home/abr/Data/EMuRelPAFramework/logs/vqa2/EMuRelPA/options.yaml --exp.resume best_eval_epoch.accuracy_top1 --dataset.train_split --dataset.eval_split val --misc.logs_name test
+
+
+/home/abr/Data/EMuRelPAFramework/logs/vqa2/EMuRelPA
